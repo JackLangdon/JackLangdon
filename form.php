@@ -1,7 +1,7 @@
 <?php
 $errors = '';
 
-$myemail = 'john@johnlangdon.io';
+$myemail = '';
 //<-----Put Your email address here.
 if(empty($_POST['first_name'])  ||
    empty($_POST['last_name']) ||
@@ -41,7 +41,6 @@ if( empty($errors))
 {
 
 $to = $myemail;
-// $to = "john@johnlangdon.io";
 
 $email_subject = "Contact form submission: $last_name";
 
@@ -59,7 +58,7 @@ mail($to,$email_subject,$email_body,$headers);
 
 //redirect to the 'thank you' page
 
-header('Location: http://johnlangdon.io/');
+header('Location: ');
 
 // Does this give a success alert? If no, can delete.
 echo "<script>alert('Mail was sent !');</script>";
