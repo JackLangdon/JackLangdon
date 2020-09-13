@@ -1,0 +1,198 @@
+html {
+  background-image: url("img/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.outer-clock {
+  width: 30rem;
+  height: 30rem;
+  border: 15px dashed #bfa203;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.outer-clock-two {
+  width: 30rem;
+  height: 30rem;
+  border: 22px solid #656565;
+  border-radius: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: -1;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 10px solid #bfa203;
+  border-radius: 50%;
+  margin-top: 0;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  box-shadow:
+    0 0 0 4px rgba(0, 0, 0, 0.1),
+    inset 0 0 10px black,
+    0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.hand {
+  top: 50%;
+  background: gold;
+  position: absolute;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transform-origin: 99%;
+  transition: all 0.2s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.64, 1.74);
+}
+
+.second-hand {
+  width: 46%;
+  height: 4px;
+  margin-left: 4%;
+  background: #c4c0ac;
+  border: 1px solid #bfa203;
+  transform: translateY(-2px);
+  transform: rotate(90deg);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.minute-hand {
+  width: 45%;
+  height: 6px;
+  margin-left: 5%;
+  background: #c4c0ac;
+  border: 1px solid #bfa203;
+  transform: translateY(-3px);
+  transform: rotate(90deg);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.hour-hand {
+  width: 35%;
+  margin-left: 15%;
+  height: 6px;
+  background: #c4c0ac;
+  border: 1px solid #bfa203;
+  transform: translateY(-3px);
+  transform: rotate(90deg);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.pin {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #141E30;
+  border-radius: 50%;
+  border: 2px solid #bfa203;
+  margin-left: 49%;
+  margin-top: 50%;
+}
+
+span {
+  font-size: 3rem;
+  position: absolute;
+}
+
+.label {
+  font-size: 1.2rem;
+  font-family: Lucida;
+  font-style: italic;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 25%;
+}
+
+.twelve {
+  margin-left: 50%;
+  padding-top: 10px;
+  transform: translateX(-50%);
+}
+
+.six {
+  margin-left: 50%;
+  margin-top: 87%;
+  transform: translateX(-50%);
+}
+
+.three {
+  margin-left: 87%;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+.nine {
+  margin-top: 50%;
+  transform: translateY(-50%);
+  padding-left: 15px;
+}
+
+.point {
+  position: absolute;
+  border: 2px solid #bfa203;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.one {  /*perfect*/
+  margin-left: 72%;
+  margin-top: 11%;
+}
+
+.two {
+  margin-left: 88%;
+  margin-top: 27%;
+}
+
+.four {
+  margin-left: 87%;
+  margin-top: 71%;
+}
+
+.five {
+  margin-left: 71%;
+  margin-top: 88%;
+}
+
+.seven {
+  margin-left: 28%;
+  margin-top: 87%;
+}
+
+.eight {
+  margin-left: 11%;
+  margin-top: 72%;
+}
+
+.ten {
+  margin-top: 28%;
+  margin-left: 10%;
+}
+
+.eleven {
+  margin-left: 27%;
+  margin-top: 11%;
+}
