@@ -60,6 +60,5 @@ mail($to,$email_subject,$email_body,$headers);
 
 header('Location: ');
 
-// Does this give a success alert? If no, can delete.
-echo "<script>alert('Mail was sent !');</script>";
+echo "<script>alert('Mail was sent!');</script>";
 }
