@@ -363,6 +363,13 @@ section {
   box-shadow: 1px 1px 1px #666;
   transition: all 0.1s ease-in;
   margin-top: 20px;
+  /* Disable Button */
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.form-note {
+  font-size: 1.2em;
 }
 
 .submit-btn>i {
