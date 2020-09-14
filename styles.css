@@ -257,6 +257,10 @@ section {
   transition: all 0.2s ease-in;
 }
 
+.contact-icons i:hover {
+  transform: scale(1.05);
+}
+
 .fa-instagram {
   color: #cd1a6b;
 }
@@ -407,6 +411,11 @@ footer {
   overflow: hidden;
   width: 100%;
   margin: auto;
+  transition: all .1s ease-in;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
 }
 
 .card-tags {

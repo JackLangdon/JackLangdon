@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gradient Backgrounds</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body id="gradient">
+  <h1 id="title">Linear Gradient Backgrounds</h1>
+  <h3 class="subTitle">Choose your colors:</h3>
+  <div class="colorInput">
+    <div class="colorSelector">
+      <label id="color1Label" for="color1" class="">left</label>
+      <input id="color1" type="color" name="color1" value="#e9d41b">
+    </div>
+    <div class="colorSelector">
+      <label id="color2Label" for="color2">right</label>
+      <input id="color2" type="color" name="color2" value="#ce2370">
+    </div>
+
+  </div>
+  <input id="randomButton" type="button" value="Get Random Gradient">
+
+  <button id="rotateButton">
+    <i class="fas fa-sync-alt"></i>
+  </button>
+
+  <h3 class="subTitle">The current CSS background property is:</h3>
+  <h4 id="cssText">linear-gradient(to right, rgb(233, 212, 27), rgb(206, 35, 112))</h4>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
