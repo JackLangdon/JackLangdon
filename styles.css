@@ -303,7 +303,7 @@ section {
   margin: 20px 20px 20px 0;
 }
 
-.input-field>* {
+.input-field > * {
   transition: all 0.3s ease-in;
 }
 
@@ -334,9 +334,9 @@ section {
   font-weight: 300;
 }
 
-.input-field input[type='text']:focus+label,
-.input-field input[type='email']:focus+label,
-.textarea:focus:not([readonly])+label {
+.input-field input[type='text']:focus + label,
+.input-field input[type='email']:focus + label,
+.textarea:focus:not([readonly]) + label {
   color: #1976d2 !important;
 }
 
@@ -372,7 +372,7 @@ section {
   font-size: 1.2em;
 }
 
-.submit-btn>i {
+.submit-btn > i {
   margin-left: 10px;
 }
 
@@ -418,7 +418,7 @@ footer {
   overflow: hidden;
   width: 100%;
   margin: auto;
-  transition: all .1s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .project-card:hover {
@@ -450,6 +450,10 @@ footer {
 
 .tag--js {
   background-color: #ffd725;
+}
+
+.tag--react {
+  background-color: #16a2ff;
 }
 
 .card-title {
