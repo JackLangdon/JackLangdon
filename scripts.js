@@ -1,26 +1,3 @@
-const bgCircle = document.getElementById('background-circle');
-const bgCircleSmall = document.getElementById('background-circle-small');
-
-let degrees = 0;
-
-const getDeg = () => {
-  if (degrees < 360) {
-    degrees += 0.1;
-  } else if (degrees > 360) {
-    degrees = 0.1;
-  }
-  return degrees;
-};
-
-const updateRotation = () => {
-  let rotation = getDeg();
-
-  bgCircle.style.transform = `rotate(${rotation}deg)`;
-  bgCircleSmall.style.transform = `rotate(${-2 * rotation}deg)`;
-};
-
-setInterval(updateRotation, 10);
-
 const navSlide = () => {
   const hamburgerIcon = document.querySelector('.hamburger');
   const menu = document.querySelector('.nav-screen');

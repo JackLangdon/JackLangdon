@@ -102,6 +102,7 @@ section {
   height: 250px;
   border: 8px dashed #4682b4;
   border-radius: 50%;
+  animation: bg-circle-spin infinite 30s linear;
 }
 
 #background-circle-small {
@@ -111,6 +112,7 @@ section {
   border-radius: 50%;
   margin-left: 17px;
   margin-top: 17px;
+  animation: bg-circle-spin-reverse infinite 15s linear;
 }
 
 .hamburger {
@@ -303,7 +305,7 @@ section {
   margin: 20px 20px 20px 0;
 }
 
-.input-field > * {
+.input-field>* {
   transition: all 0.3s ease-in;
 }
 
@@ -334,9 +336,9 @@ section {
   font-weight: 300;
 }
 
-.input-field input[type='text']:focus + label,
-.input-field input[type='email']:focus + label,
-.textarea:focus:not([readonly]) + label {
+.input-field input[type='text']:focus+label,
+.input-field input[type='email']:focus+label,
+.textarea:focus:not([readonly])+label {
   color: #1976d2 !important;
 }
 
@@ -372,7 +374,7 @@ section {
   font-size: 1.2em;
 }
 
-.submit-btn > i {
+.submit-btn>i {
   margin-left: 10px;
 }
 
@@ -464,4 +466,26 @@ footer {
 .card-description {
   font-size: 1.4em;
   margin: 10px;
+}
+
+/* ANIMATIONS */
+
+@keyframes bg-circle-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bg-circle-spin-reverse {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
 }
