@@ -2,7 +2,7 @@
 
 **Website:**  https://jacklangdon.github.io/JackLangdon/
 
-- 🔭 I’m currently developing e-commerce at <a href="https://steadlane.com.au/" target="_blank">Stead Lane</a>!
+- 👨‍💻 I’m currently developing e-commerce at <a href="https://steadlane.com.au/" target="_blank">Stead Lane</a>!
 - 🌱 Working on all things Shopify, React & Laravel!
 - 📫 How to reach me: Follow the link above to see my portfolio site. Social links in the contact section!
 
