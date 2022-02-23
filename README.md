@@ -2,8 +2,8 @@
 
 **Website:**  https://jacklangdon.github.io/JackLangdon/
 
-- 🔭 I’m currently working on a meal planning app using Flutter for Andriod and iOS!
-- 🌱 I’m currently learning app development, data and machine learning!
+- 🔭 I’m currently developing e-commerce at <a href="https://steadlane.com.au/" target="_blank">Stead Lane</a>!
+- 🌱 Working on all things Shopify, React & Laravel!
 - 📫 How to reach me: Follow the link above to see my portfolio site. Social links in the contact section!
 
 
