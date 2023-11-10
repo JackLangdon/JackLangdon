@@ -1,8 +1,9 @@
 ### Hi there 👋
 
-**Website:**  https://jacklangdon.github.io/JackLangdon/
+**Website:** https://johnlangdon.io
+<!-- https://jacklangdon.github.io/JackLangdon/ -->
 
-- 👨‍💻 Senior Developer at <a href="https://arkhi.com.au/" target="_blank">Arkhi</a>!
+- 👨‍💻 I'm a Senior Developer at <a href="https://arkhi.com.au/" target="_blank">Arkhi</a>!
 - 🌱 Working on all things Shopify, React and PHP!
 <!-- - 📫 How to reach me: Follow the link above to see my portfolio site. Social links in the contact section! -->
 
